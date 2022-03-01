@@ -1,27 +1,27 @@
 export const GAME_TITLE = process.env.REACT_APP_GAME_NAME!
 
-export const WIN_MESSAGES = ['Great Job!', 'Awesome', 'Well done!']
-export const GAME_COPIED_MESSAGE = 'Game copied to clipboard'
-export const NOT_ENOUGH_LETTERS_MESSAGE = 'Not enough letters'
-export const WORD_NOT_FOUND_MESSAGE = 'Word not found'
+export const WIN_MESSAGES = ['Mantap gan!', 'Sip', 'Mantul!']
+export const GAME_COPIED_MESSAGE = 'Game telah dicopy ke clipboard'
+export const NOT_ENOUGH_LETTERS_MESSAGE = 'Huruf tidak cukup'
+export const WORD_NOT_FOUND_MESSAGE = 'Kata tidak ditemukan'
 export const HARD_MODE_ALERT_MESSAGE =
-  'Hard Mode can only be enabled at the start!'
+  'Mode sulit hanya dapat diaktifkan di awal permainan'
 export const HARD_MODE_DESCRIPTION =
-  'Any revealed hints must be used in subsequent guesses'
-export const HIGH_CONTRAST_MODE_DESCRIPTION = 'For improved color vision'
+  'Setiap petunjuk yang ditemukan harus digunakan dalam tebakan berikutnya'
+export const HIGH_CONTRAST_MODE_DESCRIPTION = 'Untuk pengelihatan yang lebih baik'
 export const CORRECT_WORD_MESSAGE = (solution: string) =>
-  `The word was ${solution}`
+  `Kata yang benar adalah : ${solution}`
 export const WRONG_SPOT_MESSAGE = (guess: string, position: number) =>
-  `Must use ${guess} in position ${position}`
+  `Harus pakai huruf ${guess} di posisi ${position}`
 export const NOT_CONTAINED_MESSAGE = (letter: string) =>
-  `Guess must contain ${letter}`
-export const ENTER_TEXT = 'Enter'
-export const DELETE_TEXT = 'Delete'
-export const STATISTICS_TITLE = 'Statistics'
-export const GUESS_DISTRIBUTION_TEXT = 'Guess Distribution'
+  `Tebakan harus mengandung ${letter}`
+export const ENTER_TEXT = 'Tebak'
+export const DELETE_TEXT = 'Hapus'
+export const STATISTICS_TITLE = 'Statistik'
+export const GUESS_DISTRIBUTION_TEXT = 'Distribusi Tebakan'
 export const NEW_WORD_TEXT = 'New word in'
-export const SHARE_TEXT = 'Share'
-export const TOTAL_TRIES_TEXT = 'Total tries'
-export const SUCCESS_RATE_TEXT = 'Success rate'
-export const CURRENT_STREAK_TEXT = 'Current streak'
-export const BEST_STREAK_TEXT = 'Best streak'
+export const SHARE_TEXT = 'Bagikan'
+export const TOTAL_TRIES_TEXT = 'Total percobaan'
+export const SUCCESS_RATE_TEXT = 'Tingkat kesuksesan'
+export const CURRENT_STREAK_TEXT = 'Streak saat ini'
+export const BEST_STREAK_TEXT = 'Streak terbaik'
